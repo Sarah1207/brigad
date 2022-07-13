@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  border: 1px solid black;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.card--job {
+  font-weight: 600;
+  text-align: left;
+}
+
+.card--flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
